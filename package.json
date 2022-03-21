@@ -22,7 +22,6 @@
   "homepage": "https://github.com/Tneswick/portfolio-generator#readme",
   "dependencies": {
     "bootstrap": "^5.1.3",
-    "inquirer": "^8.2.1",
-    "nodemon": "^2.0.15"
+    "inquirer": "^8.2.1"
   }
 }
