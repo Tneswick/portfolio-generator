@@ -1,5 +1,15 @@
-var variable = "this is a whole other string"
+const profileDataArgs = process.argv.slice(2, process.argv.length);
 
-console.log(`french bread is "good" ${variable}`)
+const printProfileData = (profileDataArr) => {
+    // This...
+    for (let i = 0; i < profileDataArr.length; i++) {
+        console.log(profileDataArr[i]);
+    }
 
-variable == "this is a hole other string" ? console.log("true") : console.log("false");
+    console.log('===========');
+
+    // Is the same as this...
+    profileDataArgs.forEach(profileItem => console.log(profileItem));
+};
+
+printProfileData(profileDataArgs);
